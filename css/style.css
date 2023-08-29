@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Arial;
+}
+body{
+    background:url("./img/18936221-8876-b.jpg");
+    background-size:cover ;
+}
+.calc{
+    width: 400px;
+    margin: 100px auto;
+}
+.display{
+    color: black;
+    text-align: right;
+    font-size: 60px;
+    padding: 20px;
+}
+.keypad{
+
+}
+.keypad-table{
+
+}
+.keypad-table tr:first-child .key{
+    background-color: #eeeeee;
+    color: black;
+}
+.keypad-table tr:first-child .key:active{
+    background-color: #eeeeee;
+}
+.keypad-table tr td:last-child .key{
+    background-color: #eeeeee;
+    color: black;
+}
+.keypad-table tr td:last-child .key:active{
+    background-color: yellow;
+}
+.key{
+    width: 90px;
+    height: 90px;
+    border-top: 1px solid greenyellow;
+    border-bottom: 1px solid red;
+    border-left: 1px solid green;
+    border-right: 1px solid yellow;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 90px;
+    margin: 5px;
+    background-color: #eeeeee;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+    transition: all .2s linear;
+    box-shadow: 1px 2px 1px 1px #a5a5a5;
+
+}
+.key:active{
+    background-color: #eeeeee;
+    border-top: 1px solid  red ;
+    border-bottom: 1px solid greenyellow;
+    border-left: 1px solid yellow;
+    border-right: 1px solid green;}
